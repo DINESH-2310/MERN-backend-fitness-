@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 app.use(cors(
-   { origin:"http://localhost:3000",
+   { origin:"https://glistening-kashata-1f1862.netlify.app",
 }));
 app.use('/api',userRouter);
 
